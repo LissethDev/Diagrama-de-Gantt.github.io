@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diagrama de Gantt - FITLIFE</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #176b4d;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #176b4d;
+            color: white;
+        }
+
+        td:nth-child(1),
+        td:nth-child(2) {
+            text-align: left;
+        }
+
+        .fase {
+            background-color: #dcefe6;
+            font-weight: bold;
+            color: #176b4d;
+        }
+
+        .barra {
+            background-color: #2e9b72;
+            height: 20px;
+            border-radius: 4px;
+        }
+
+        .vacio {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Diagrama de Gantt — Proyecto FITLIFE</h1>
+
+<table>
+
+    <tr>
+        <th>Fase</th>
+        <th>Tarea</th>
+        <th>Tiempo</th>
+        <th>Periodo 1</th>
+        <th>Periodo 2</th>
+        <th>Periodo 3</th>
+        <th>Periodo 4</th>
+        <th>Periodo 5</th>
+        <th>Periodo 6</th>
+    </tr>
+
+    <!-- FASE 1 -->
+    <tr>
+        <td class="fase">1. Inicio y planificación</td>
+        <td>Definición del proyecto</td>
+        <td>2 días</td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">1. Inicio y planificación</td>
+        <td>Identificación de stakeholders</td>
+        <td>2 días</td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">1. Inicio y planificación</td>
+        <td>Definición del alcance</td>
+        <td>3 días</td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">1. Inicio y planificación</td>
+        <td>Planificación</td>
+        <td>3 días</td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <!-- FASE 2 -->
+    <tr>
+        <td class="fase">2. Diseño de la aplicación</td>
+        <td>Diseño de la interfaz</td>
+        <td>5 días</td>
+        <td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">2. Diseño de la aplicación</td>
+        <td>Diseño de experiencia de usuario</td>
+        <td>5 días</td>
+        <td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">2. Diseño de la aplicación</td>
+        <td>Elaboración del prototipo</td>
+        <td>5 días</td>
+        <td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">2. Diseño de la aplicación</td>
+        <td>Revisión</td>
+        <td>3 días</td>
+        <td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+
+    <!-- FASE 3 -->
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Registro</td>
+        <td>5 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Perfil</td>
+        <td>5 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Rutinas</td>
+        <td>7 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Recetas</td>
+        <td>7 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Foro</td>
+        <td>8 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Búsqueda</td>
+        <td>5 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">3. Desarrollo de la aplicación</td>
+        <td>Notificaciones</td>
+        <td>4 días</td>
+        <td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td><td></td>
+    </tr>
+
+    <!-- FASE 4 -->
+    <tr>
+        <td class="fase">4. Contenido</td>
+        <td>Rutinas</td>
+        <td>5 días</td>
+        <td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">4. Contenido</td>
+        <td>Recetas</td>
+        <td>5 días</td>
+        <td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">4. Contenido</td>
+        <td>Categorías</td>
+        <td>3 días</td>
+        <td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">4. Contenido</td>
+        <td>Foro</td>
+        <td>3 días</td>
+        <td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td><td></td>
+    </tr>
+
+    <!-- FASE 5 -->
+    <tr>
+        <td class="fase">5. Pruebas</td>
+        <td>Funciones</td>
+        <td>5 días</td>
+        <td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">5. Pruebas</td>
+        <td>Navegación</td>
+        <td>3 días</td>
+        <td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">5. Pruebas</td>
+        <td>Usuarios</td>
+        <td>4 días</td>
+        <td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td class="fase">5. Pruebas</td>
+        <td>Errores</td>
+        <td>5 días</td>
+        <td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+        <td></td>
+    </tr>
+
+    <!-- FASE 6 -->
+    <tr>
+        <td class="fase">6. Implementación</td>
+        <td>Versión final</td>
+        <td>3 días</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+    </tr>
+
+    <tr>
+        <td class="fase">6. Implementación</td>
+        <td>Publicación</td>
+        <td>2 días</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+    </tr>
+
+    <tr>
+        <td class="fase">6. Implementación</td>
+        <td>Revisión</td>
+        <td>2 días</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+    </tr>
+
+    <tr>
+        <td class="fase">6. Implementación</td>
+        <td>Entrega</td>
+        <td>1 día</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td><div class="barra"></div></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+
